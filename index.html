@@ -1,16 +1,22 @@
 <html>
 	<head>
+		<title>Feira Online</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>Feira Online</title>
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 	</head>
 	<body>
-		<div>
-			<h1>Feira Web</h1>
+		<main>
+			<h1>
+				<i class="ri-shopping-cart-2-fill"></i>
+				Feira Web</h1>
 			<p>Procure por um produto:</p>
 			<input type="search" id="input-procura" placeholder="Ex: Limão">
 			<hr>
-			<table>
+			<div id="erro">
+				Produto não encontrado! Tente outro.
+			</div>
+			<table border="1">
 				<thead>
 					<th>Produto</th>
 					<th>Nome</th>
@@ -22,6 +28,6 @@
 					<td id="produto-preco"></td>
 				</tbody>
 			</table>
-		</div>
+		</main>
 	</body>
 </html>
