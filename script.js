@@ -10,6 +10,7 @@ window.onload = () => procura.value = '';
 procura.addEventListener('keydown', (ev)=>{
 	if(ev.key == 'Enter'){
 		erroBox.style.display = 'none';
+		document.querySelector("table").style.display = 'none';
 		procurarProduto(procura.value.toLowerCase());
 	}
 });
@@ -27,6 +28,7 @@ function procurarProduto(valor){
 				erroBox.style.display = 'block';
 			}
 			else{
+				document.querySelector("table").style.display = 'inline-block';
 				imagem.src = data[posicaoDoProduto].url;
 				nome.innerText = data[posicaoDoProduto].nome;
 				preco.innerText = data[posicaoDoProduto].preco;
