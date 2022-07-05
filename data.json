@@ -1,0 +1,42 @@
+[
+	{
+		"url": "img/cenoura.png",
+		"nome": "cenoura",
+		"preco": "R$ 0,85"
+	},
+	{
+		"url": "img/batata.png",
+		"nome": "batata",
+		"preco": "R$ 1,00"
+	},
+	{
+		"url": "img/chuchu.png",
+		"nome": "chuchu",
+		"preco": "R$ 0,65"
+	},
+	{
+		"url": "img/tomate.png",
+		"nome": "tomate",
+		"preco": "R$ 0,42"
+	},
+	{
+		"url": "img/maca.png",
+		"nome": "maçã",
+		"preco": "R$ 0,98"
+	},
+	{
+		"url": "img/banana.png",
+		"nome": "banana",
+		"preco": "R$ 0,76"
+	},
+	{
+		"url": "img/limao.png",
+		"nome": "limão",
+		"preco": "R$ 0,30"
+	},
+	{
+		"url": "img/uva.png",
+		"nome": "uva",
+		"preco": "R$ 0,10"
+	}
+]
